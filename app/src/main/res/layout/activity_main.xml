@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_converter_app"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="40sp"
+        android:fontFamily="times"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Centimeters to Meters Converter"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextCentimeters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="Enter centimeters"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonConvert"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kilograms to Grams Converter"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/editTextKilograms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="Enter kilograms"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonConvert1"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/textViewResult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>
